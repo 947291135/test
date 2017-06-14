@@ -1,0 +1,459 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			html{
+				
+			}
+			body{
+				background: url(../img/beijing.jpg) no-repeat top center;
+			}
+			.top{
+				background: url(../img/Top.png) no-repeat top center;
+				width: 100%;
+				height: 41px;
+				top: 0;
+				position: absolute;
+				z-index: 1000;
+				min-width: 1000px;
+				
+			}
+			.deco-arrow-big-min{
+				background: url(../img/未标题-1.png) no-repeat top center;
+				width: 100%;
+				min-width: 1000px;
+				height: 3000px;
+				position: absolute;
+				top: -41px;
+			}
+			.header{
+				width: 1000px;
+				height: 700px;
+				margin: 0 auto;
+				min-width: 1000px;
+				margin-top: 41px;
+				overflow: hidden;
+				position: relative;
+				text-align: center;
+			}
+			.header_button{
+				float: right;
+			}
+			.header_button .button{
+				width: 127px;
+				height: 39px;
+				background-color: aqua;
+				float: left;
+				background: rgb(151,179,68);
+				margin-left: 5px;
+				color: #fff;
+				font-family: "微软雅黑";
+				font-size: 16px;
+				line-height: 39px;
+				position: relative;
+			}
+			.header_button .left_button img{
+				width: 15px;
+				height: 14px;
+				float: left;
+				margin-top:13px;
+				margin-left: 23px;
+				margin-right: 7px;
+			}
+			.header_button .right_button img{
+				width: 15px;
+				height: 14px;
+				float: left;
+				margin-top:13px;
+				margin-left: 23px;
+				margin-right: 7px;
+			}
+			.header .header_icon{
+				width: 399px;
+				height: 65px;
+				margin: 0 auto;
+				margin-top: 39px;
+				background: url(../img/LOGO.png) no-repeat;s
+			}
+			.header .header_title{
+				width: 987px;
+				height: 449px;
+				margin: 20px auto;
+				background: url(../img/大园球title.png) no-repeat;
+			}
+			.header .money{
+				width: 274px;
+				height: 79px;
+				margin: 0 auto;
+				background: url(../img/冲钱.png) no-repeat;
+				position: relative;
+			}
+			.header .money:before{
+				content: "";
+				width: 274px;
+				height: 79px;
+				position: absolute;
+				background: url(../img/冲钱2.png);
+				display: none;
+			}
+			.header .money.aticy:before{
+				display: block;
+			}
+			.header>p{
+				font-size: 14px;
+				color: #fff;
+				font-family:  "微软雅黑";
+			}
+			.header>p a{
+				color: rgb(255,253,115);
+			}
+			.center{
+				width: 100%;
+				height: 2000px;
+				min-width: 1000px;
+			}
+			.center .row_button{
+				width: 1000px;
+				margin:0px auto ;
+				height: 134px;
+				position: relative;
+			}
+			.row_button div{
+				float: left;
+				position: relative;
+				margin-top: 10px;
+			}
+			.row_button .button_pc{
+				width: 496px;
+				height:124px;
+				float: left;
+			}
+			.button_pc a{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+			}
+			.button_pc a img{
+				position: absolute;
+				bottom: 0;
+			}
+			.row_button .button_mobile{
+				width: 500px;
+				height: 124px;
+				float: left;
+			}
+			.button_mobile a{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+			}
+			.button_mobile a img{
+				position: absolute;
+				bottom: 0;
+			}
+			.center .prize{
+				width: 100%;
+				height: 716px;
+				min-width: 1000px;
+				margin-top: -8px;
+				background:url(../img/PC奖品背景.png) no-repeat center;
+				box-sizing: border-box;
+				padding-top: 50px;
+				text-align: center;
+			}
+			.PC_prize{	
+			}
+			.center .prize .PC_prize>p{
+				font-size: 14px;
+				color: #fff;
+				font-family:  "微软雅黑";
+				margin-bottom: 20px;
+			}
+			.center .prize .PC_prize>p a{
+				color: rgb(255,253,115);
+				text-autospace: none;
+			}
+			.PC_title{
+				width: 305px;
+				height: 44px;
+				background:url(../img/PC_title.png);
+				margin: 0 auto;
+				text-align: center;
+			}
+			.PC_gift{
+				width: 1000px;
+				height: 460px;
+				margin: 0 auto;
+			}
+			.PC_gift ul{
+				list-style-type: none;
+			}
+			.PC_gift ul li{
+				float: left;
+				margin-left: 136px;
+			}
+			.mobile_prize{
+				display:none ;
+			}
+			.prize .mobile_prize>p{
+				font-size: 14px;
+				color: #fff;
+				font-family:  "微软雅黑";
+				margin-bottom: 20px;
+				
+			}
+			.prize .mobile_prize .mobile_gift{
+				width: 904px;
+				height: 361px;
+				margin: 0 auto;
+				margin-top: 100px;
+				background: url(../img/移动端礼包/礼包.png);
+			}
+			.PC_button{
+				width: 274px;
+				height: 79px;
+				margin: 24px auto;
+				background: url(../img/按钮-未选中-拷贝.png);
+				position: relative;
+			}
+			.PC_button:hover:before{
+				display: block;
+			}
+			.PC_button:before{
+				content: "";
+				position: absolute;
+				background: url(../img/按钮-选中.png);
+				display: none;
+				left: 0;
+				top: 0;
+				width: 274px;
+				height: 79px;
+			}
+			.Glory_gift{
+				width: 100%;
+				margin: 0 auto;
+				min-width: 1000px;
+				position: relative;
+				text-align: center;
+			}
+			.Glory_gift>p{
+				font-size: 14px;
+				font-family: "微软雅黑";
+				color: #fff;
+				margin-top: 44px;
+				margin-bottom: 44px;
+			}
+			.Glory_gift>p a{
+				text-decoration: none;
+				color:rgb(255,253,115); 
+			}
+			.Glory_title{
+				width: 305px;
+				height: 44px;
+				margin: 0 auto;
+				background: url(../img/荣耀礼包/荣耀title.png) no-repeat;
+			}
+			.Glory_award{
+				width: 1000px;
+				height: 480px;
+				margin: 0px auto;
+				margin-top: 30px;
+			}
+			.Glory_award ul{
+				list-style-type: none;
+			}
+			.Glory_award ul li{
+				width: 228px;
+				float: left;
+				margin-right: 21.3px;
+				margin-bottom: 50px;
+				text-align: center;
+			}
+			.Glory_award ul li p{
+				width: 150px;
+				margin: 0 auto;
+				margin-top: 18px;
+				font-size: 14px;
+				font-family:  "微软雅黑" ;
+				color: #fff;
+			}
+			.Glory_award ul li:nth-child(4n){
+				margin-right: 0;
+			}
+			.Glory_gift .PC_button{
+				margin-top: 40px;
+				margin-bottom: 0;
+			}
+			.mobile_Glory{
+				width: 100%;
+				margin: 0 auto;
+				min-width: 1000px;
+				position: relative;
+				text-align: center;
+				display: none;
+			}
+			.mobile_Glory_title{
+				width: 305px;
+				height: 43px;
+				margin: 0 auto;
+				margin-top: 62px;
+				margin-bottom: 51px;
+				background: url(../img/移动端礼包/获奖名单.png) no-repeat;
+			}
+			.mobile_Glory_center{
+				width: 796px;
+				height: 598px;
+				margin: 0 auto;
+				border: 2px solid rgb(0,86,31);
+				box-sizing: border-box;
+				padding-top: 53px;
+				padding-left: 65px;
+			}
+			.mobile_Glory_center table thead{
+				color: rgb(255,247,42);
+				font-size: 24px;
+				font-weight: 600;
+				font-family: "微软雅黑";
+			}
+			.mobile_Glory_center table thead tr th{
+				height: 50px;
+			}
+			.mobile_Glory_center table tbody tr td{
+				color: #fff;
+				height: 25px;
+				font-size: 16px;
+			}
+			.mobile_Glory_center table{
+				color: #fff;
+			}
+			.mobile_Glory_center table tbody tr td{
+				
+			}
+			.mobile_Glory_center table tbody tr td:nth-child(1){
+				
+			}
+			.rules{
+				width: 1000px;
+				height: 240px;
+				margin: 0 auto;
+				margin-top: 90px;
+			}
+			.rules_title{
+			     width:305px;
+			     height:43px;
+			     margin:0 auto;  
+			     background: url(../img/规则/title.png);
+			}
+			.rules ul{
+				display: block;
+				width: 1000px;
+				height: 142px;
+				margin: 0 auto;
+				color: rgb(196,195,195);
+				font-size: 14px;
+				margin-top: 50px;
+				list-style-type: none;
+			}
+			.rules ul li{
+				margin-bottom: 10px;
+			}
+			.rules ul li i{
+				display: inline-block;
+				border: 1px solid transparent;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				text-align: center;
+				border-radius: 50%;
+				font-style:normal;
+				color: #000;
+				background:rgb(255,247,42);
+				margin-right: 10px;
+			}
+			.mobile_rules{
+				width: 1000px;
+				height: 240px;
+				margin: 0 auto;
+				margin-top: 90px;
+				display: none;
+			}
+			.mobile_rules_title{
+			     width:305px;
+			     height:43px;
+			     margin:0 auto;  
+			     background: url(../img/移动端礼包/活动规则.png);
+			}
+			.mobile_rules ul{
+				display: block;
+				width: 1000px;
+				height: 142px;
+				margin: 0 auto;
+				color: rgb(196,195,195);
+				font-size: 14px;
+				margin-top: 50px;
+				list-style-type: none;
+			}
+			.mobile_rules ul li{
+				margin-bottom: 10px;
+			}
+			.mobile_rules ul li i{
+				display: inline-block;
+				border: 1px solid transparent;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				text-align: center;
+				border-radius: 50%;
+				font-style:normal;
+				color: #000;
+				background:rgb(255,247,42);
+				margin-right: 10px;
+			}
+			.fooer{
+				width: 100%;
+				height: 250px;
+				background: #000;
+				position: relative;
+				overflow: hidden;
+				min-width: 1000px;
+				z-index: 2;
+			}
+			.fooer_title{
+				width: 1000px;
+				height: 160px;
+				margin: 0 auto;
+				margin-top: 40px;
+				position: relative;
+			}
+			.fooer_logo{
+				width: 315px;
+				height: 63px;
+				float: left;
+				overflow: hidden;
+				position: relative;
+			}
+			.fooer_logo a{
+				position: absolute;
+				display: block;
+				left: 0;
+				top: 0;
+			}
+			.fooer_logo a:nth-child(1){
+				left: 0;
+				top: 10px;
+			}
+			.fooer_logo a:nth-child(2){
+				left: 166px;
+			}
+			.fooer_logo a:nth-child(3){
+				left: 225px;
+			}
+			.fooer .fooer_test{
+				width: 700px;
+				height: 200px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				color: rgb(153,153,153);
+				font-size: 12px;
+			}
